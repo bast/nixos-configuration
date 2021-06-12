@@ -7,14 +7,22 @@ let
     xorg.xev
 #   google-chrome
     gparted
-    gnupg
-    keybase
-    keybase-gui
-    pass
     imagemagick
     inkscape
     meld
     git
+  ];
+
+  encryption_packages = with pkgs; [
+    gnupg
+    keybase
+    keybase-gui
+    pass
+  ];
+
+  chat_packages = with pkgs; [
+    slack
+    teams
   ];
 
   audio_video_packages = with pkgs; [
@@ -78,6 +86,8 @@ in {
 
   home.packages =
     base_packages ++
+    encryption_packages ++
+    chat_packages ++
     audio_video_packages ++
     container_packages ++
     rust_packages ++
