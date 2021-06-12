@@ -1,12 +1,10 @@
-# home-manager
-
-[NixOS](https://nixos.org/)/[home-manager](https://github.com/nix-community/home-manager) setup.
+# [NixOS](https://nixos.org/)/[home-manager](https://github.com/nix-community/home-manager) setup
 
 > "Where home comes to life from out of the blue"
 > [David Byrne and Brian Eno, "Home"]
 
 
-## License information
+### License information
 
 All the `fish/functions/git_*.fish` functions are redistributed and orginate from
 https://github.com/oh-my-fish/oh-my-fish, (c) "Oh My Fish!".
