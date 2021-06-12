@@ -1,6 +1,6 @@
 # home-manager
 
-NixOS/ [home-manager](https://github.com/nix-community/home-manager) setup.
+[NixOS](https://nixos.org/)/[home-manager](https://github.com/nix-community/home-manager) setup.
 
 > "Where home comes to life from out of the blue"
 > [David Byrne and Brian Eno, "Home"]
