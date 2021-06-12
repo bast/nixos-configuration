@@ -101,6 +101,14 @@ in {
     };
   };
 
+  xdg.configFile = {
+    fish = {
+      source = ./fish;
+      target = "fish";
+      recursive = true;
+    };
+  };
+
   programs.vim = {
     enable = true;
     extraConfig = builtins.readFile ./vimrc;
