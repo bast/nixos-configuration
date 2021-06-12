@@ -85,7 +85,7 @@ in {
     cl_packages ++
     build_packages;
 
-  programs.termite.enable = true;
+  programs.alacritty.enable = true;
 
   nixpkgs.config = {
     allowUnfree = true;
@@ -127,7 +127,7 @@ in {
       enable = true;
       config = {
         window.titlebar = false;
-        terminal = "termite";
+        terminal = "alacritty";
         modifier = "Mod4";  # this is the "windows" key
         defaultWorkspace = "workspace number 1";
       };
