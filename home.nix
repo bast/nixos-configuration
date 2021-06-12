@@ -93,6 +93,9 @@ in {
 
   programs.fish = {
     enable = true;
+    promptInit = ''
+      set -x fish_prompt_pwd_dir_length 80
+    '';
     shellAliases = {
       vi = "vim";
       ls = "exa";
