@@ -122,6 +122,7 @@ in {
       vim-commentary
       vim-markdown
       vim-sensible
+      vim-colorschemes
     ];
   };
 
