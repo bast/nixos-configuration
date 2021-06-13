@@ -13,3 +13,8 @@
 - Rest is adapted from
   [home-manager](https://github.com/nix-community/home-manager) documentation
   and also inspired by https://github.com/juselius/dotfiles.
+
+
+### LUKS installation
+
+- https://gist.github.com/walkermalling/23cf138432aee9d36cf59ff5b63a2a58
