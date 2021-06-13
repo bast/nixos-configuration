@@ -2,7 +2,6 @@
 
 let
   base_packages = with pkgs; [
-    firefox
     brave
     xorg.xmodmap
     xorg.xev
@@ -10,7 +9,6 @@ let
     gparted
     imagemagick
     inkscape
-    meld
   ];
 
   encryption_packages = with pkgs; [

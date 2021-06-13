@@ -10,11 +10,19 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  # Set your time zone.
-  time.timeZone = "Europe/Oslo";
+  # luks
+  boot.initrd.luks.devices = {
+    crypted = {
+      device = "/dev/disk/by-uuid/4d5e99af-22c9-4084-93c7-156cdcc0b9b5";
+      preLVM = true;
+    };
+  };
 
   # networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
+
+  # Set your time zone.
+  time.timeZone = "Europe/Oslo";
 
   # The global useDHCP flag is deprecated, therefore explicitly set to false here.
   # Per-interface useDHCP will be mandatory in the future, so this generated config
@@ -66,10 +74,12 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
+    firefox
     vim
     wget
     curl
     git
+    meld
   ];
 
   system.stateVersion = "21.05"; # Did you read the comment?
