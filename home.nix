@@ -75,10 +75,8 @@ let
 
 in {
   programs.home-manager.enable = true;
-
   home.username = "bast";
   home.homeDirectory = "/home/bast";
-
   home.stateVersion = "21.05";
 
   home.packages =
