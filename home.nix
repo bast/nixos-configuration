@@ -11,7 +11,6 @@ let
     imagemagick
     inkscape
     meld
-    git
   ];
 
   encryption_packages = with pkgs; [
@@ -73,8 +72,7 @@ let
     htop
     tldr
     tree
-    wget
-    curl
+    neofetch
   ];
 
 in {
