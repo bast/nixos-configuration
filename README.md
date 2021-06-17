@@ -12,7 +12,7 @@
 - fish-ssh-agent functions redistributed and originate from https://github.com/danhper/fish-ssh-agent.
 - Rest is adapted from
   [home-manager](https://github.com/nix-community/home-manager) documentation
-  and also inspired by https://github.com/juselius/dotfiles.
+  and also inspired by https://github.com/juselius/dotfiles and https://github.com/robertodr/nixos-configuration.
 
 
 ### LUKS installation
