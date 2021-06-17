@@ -16,6 +16,11 @@ let
     pass
   ];
 
+  emulator_packages = with pkgs; [
+    dosbox
+    uae
+  ];
+
   chat_packages = with pkgs; [
     slack
     teams
@@ -80,6 +85,7 @@ in {
   home.packages =
     base_packages ++
     encryption_packages ++
+    emulator_packages ++
     chat_packages ++
     audio_video_packages ++
     container_packages ++
