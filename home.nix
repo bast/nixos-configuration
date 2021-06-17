@@ -136,6 +136,7 @@ in {
   };
 
   home.file.".gitconfig".source = ./gitconfig;
+  home.file.".alacritty.yml".source = ./alacritty.yml;
 
   xsession = {
     enable = true;
