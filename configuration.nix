@@ -66,6 +66,8 @@
 
   programs.fish.enable = true;
 
+  programs.gnupg.agent.enable = true;
+
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.bast = {
     isNormalUser = true;

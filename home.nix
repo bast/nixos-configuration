@@ -12,8 +12,6 @@ let
   ];
 
   encryption_packages = with pkgs; [
-    gnupg
-#   keybase
     keybase-gui
     pass
   ];
