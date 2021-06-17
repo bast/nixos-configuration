@@ -13,7 +13,7 @@ let
 
   encryption_packages = with pkgs; [
     gnupg
-    keybase
+#   keybase
     keybase-gui
     pass
   ];

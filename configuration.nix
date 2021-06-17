@@ -41,6 +41,9 @@
   #   keyMap = "us";
   # };
 
+  services.keybase.enable = true;
+  services.kbfs.enable = true;
+
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
