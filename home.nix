@@ -136,9 +136,9 @@ in {
   xsession = {
     enable = true;
     # up-key missing, use pgup
-    initExtra = ''
-      xmodmap -e "keycode 112 = Up"
-    '';
+#   initExtra = ''
+#     xmodmap -e "keycode 112 = Up"
+#   '';
 
     windowManager.i3 = {
       enable = true;
