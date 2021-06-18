@@ -18,6 +18,7 @@
         ui = true
 [core]
         editor = vim
+        pager = "less -F -X"
 [apply]
         whitespace = nowarn
 [merge]
