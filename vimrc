@@ -33,3 +33,6 @@ function! XTermPasteBegin()
   set paste
   return ""
 endfunction
+
+" highlight pico-8 code as lua
+autocmd BufEnter *.p8 :setlocal filetype=lua
