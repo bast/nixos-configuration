@@ -46,7 +46,7 @@ let
 
   build_packages = with pkgs; [
     binutils
-    gcc
+    gfortran  # provides also gcc
     gdb
     gnumake
     cmake
