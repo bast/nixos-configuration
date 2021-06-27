@@ -54,6 +54,7 @@ let
     autoconf
     libtool
     valgrind
+    python39
   ];
 
   node_packages = with pkgs; [
