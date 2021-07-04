@@ -9,6 +9,7 @@ let
     gparted
     imagemagick
     inkscape
+    unzip
   ];
 
   encryption_packages = with pkgs; [
