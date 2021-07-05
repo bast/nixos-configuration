@@ -10,6 +10,7 @@ let
     imagemagick
     inkscape
     unzip
+    zola
   ];
 
   encryption_packages = with pkgs; [
