@@ -11,6 +11,7 @@ let
     inkscape
     unzip
     zola
+    libreoffice
   ];
 
   encryption_packages = with pkgs; [
