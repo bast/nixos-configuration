@@ -35,7 +35,6 @@ let
   ];
 
   container_packages = with pkgs; [
-    singularity
     squashfsTools
   ];
 

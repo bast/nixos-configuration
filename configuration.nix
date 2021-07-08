@@ -66,7 +66,7 @@
   # services.xserver.xkbOptions = "eurosign:e";
 
   programs.fish.enable = true;
-
+  programs.singularity.enable = true;
   programs.gnupg.agent.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
